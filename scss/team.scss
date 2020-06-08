@@ -1,0 +1,160 @@
+$primary:#3292a6;
+$primary-overlay:rgba(50,146,166,0.8);
+$dark-overlay:rgba(0,0,0,0.7);
+$icon-size:30px;
+body{
+  background: white;
+  color:#fff;
+  margin-top: 105px;
+}
+
+.navbar{
+  box-shadow: 2px 2px 5px #fff;
+  opacity: 0.8;
+  background:black;
+}
+  .nav-item{
+    font-size: 1.4rem;
+    padding-right: 20px;
+  }
+
+
+.our-team {
+	text-align: center;
+}
+
+.our-team .pic {
+	position: relative;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.our-team .pic:before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-shadow: 0 0 0 0 #ccccb3 inset;
+	opacity: 0.5;
+	transition: all 1s ease-in-out 0s;
+}
+
+.our-team:hover .pic:before {
+	box-shadow: 0 0 0 400px #ccccb3 inset;
+}
+
+.pic img {
+	width: 100%;
+	height: auto;
+}
+
+.our-team .social-links {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+
+.our-team .social-links li {
+	display: inline-block;
+	margin-right: 10px;
+	transform: scale(0, 0);
+	transition: all 0.7s ease-in-out 0s;
+}
+
+.our-team:hover .social-links li:nth-child(1) {
+	transition-delay: 0.1s;
+	transform: scale(1, 1);
+}
+
+.our-team:hover .social-links li:nth-child(2) {
+	transition-delay: 0.2s;
+	transform: scale(1, 1);
+}
+
+.our-team:hover .social-links li:nth-child(3) {
+	transform: scale(1, 1);
+	transition-delay: 0.3s;
+}
+
+.our-team:hover .social-links li:nth-child(4) {
+	transition-delay: 0.4s;
+	transform: scale(1, 1);
+}
+
+.our-team:hover .social-links li:nth-child(5) {
+	transition-delay: 0.5s;
+	transform: scale(1, 1);
+}
+
+.our-team .social-links li a {
+	font-size: 30px;
+	color:red;
+}
+
+.our-team .social-links li a:hover {
+	text-decoration: none;
+}
+
+.our-team .team-title {
+	font-size: 22px;
+	font-weight: bold;
+	color: #283a44;
+	text-transform: capitalize;
+	margin-top: 10px;
+}
+
+.our-team .post {
+	display: block;
+	font-size: 14px;
+	color: #687177;
+	text-transform: capitalize;
+}
+
+#goTop{
+   position: relative;
+   top:-60px;
+   height:85px;
+   width:85px;
+   align-content: center;
+   background:white;
+ }
+ #copyright{
+   background-color: transparent;
+ }
+ footer{
+   margin-top:60px;
+   background-size:100% 100%;
+   background-size:cover;
+   box-shadow:0px 0px 10px grey;
+   display: inline-block;
+ background-repeat: no-repeat;
+ position: relative;
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ }
+ .footerTitle{
+   color:#ffffff;
+   justify-content: center;
+   text-indent: 40px;
+ }
+ #footerContainer{
+   align-content: center;
+   justify-content: center;
+ }
+ .columnContentText{
+   color:white;
+ }
+
+@media screen and (max-width: 990px) {
+	.our-team {
+		margin-bottom: 20px;
+	}
+}

@@ -567,8 +567,11 @@ footer#main-footer{
 		}
 	}
 	.meta {
-		color: lighten(#000000, 45%);
+		color: lighten(#000000, 55%);
 	}
+	p {
+   		color: lighten(#000000, 85%);
+  	}
 }
 
 .custom-pagination {

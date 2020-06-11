@@ -16,7 +16,7 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event){
   $(this).ekkoLightbox();
 });
 
-$('.slider').slick({
+$('.slider').click({
   infinite: true,
   slideToShow:1,
   slideToScroll:1

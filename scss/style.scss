@@ -462,19 +462,16 @@ footer#main-footer{
 }
 
 /*BLOG SECTION*/
-.ow-break-word {
-   overflow-wrap: break-word;
-}
 
 .main-content {
-	width:100%;
+  width: 100%;
 	// float: left;
 	// width: calc(100% - 250px);
   // @media (max-width: 991.98px) {
   //   width: 100%;
 	// 	position: relative;
 	// 	float: none;
-  //}
+  // }
 	.container-fluid {
 		margin-left: 0;
 		margin-right: 0;
@@ -569,9 +566,9 @@ footer#main-footer{
 	.meta {
 		color: lighten(#000000, 55%);
 	}
-	p {
-   		color: lighten(#000000, 85%);
-  	}
+  p {
+    color: lighten(#000000, 85%);
+  }
 }
 
 .custom-pagination {
